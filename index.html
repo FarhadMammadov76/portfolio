@@ -1,14 +1,77 @@
-<!doctype html>
-<!--
-Site EF UE L102/L104 – Atelier CycloMax
--->
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-<link rel="stylesheet" type="text/css" href="styles.css">
-<meta charset="utf-8">
-<title>Site EF UE L102/L104 – Atelier CycloMax</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Votre Nom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body id="top">
-  <!-- Corps du document : en-tête, contenu principal, pied de page -->
-  <!-- En-tête du site : titre principal + navigation globale -->
-  <header>
+<body>
+
+    <header class="main-header">
+        <div class="header-content">
+            <h1>Votre Nom</h1>
+            <p class="subtitle">Étudiant en Licence Métiers de l’Informatique</p>
+            <div class="contact-info">
+                <span><i class="fas fa-map-marker-alt"></i> Limoges, France (Distanciel)</span>
+                <span class="separator">|</span>
+                <a href="mailto:votre.email@exemple.com">votre.email@exemple.com</a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="tabs">
+        <button class="tab-btn active">Parcours & CV</button>
+        <button class="tab-btn">Réalisations</button>
+    </nav>
+
+    <main class="container">
+        <section class="card">
+            <h2>Profil Professionnel</h2>
+            <div class="content">
+                <p>
+                    Étudiant en <strong>Licence Métiers de l’Informatique – Applications Web</strong> à l’Université de Limoges, 
+                    je me spécialise dans la création de sites internet, l’optimisation SEO et la gestion de solutions numériques orientées performance. 
+                    Mon parcours est renforcé par une première formation en économie et gestion, qui m’a permis de développer une vision analytique, 
+                    structurée et orientée résultats, essentielle dans les projets digitaux et entrepreneuriaux.
+                </p>
+                <p>
+                    Fondateur et président de <strong>VOLK GROUP SAS</strong>, j’ai acquis une solide expérience pratique à travers la création 
+                    et l’optimisation de sites web, la gestion de projets clients, le branding et le référencement naturel. Cette expérience 
+                    entrepreneuriale m’a permis de développer une grande autonomie, un sens aigu des responsabilités et une forte capacité à 
+                    résoudre des problématiques techniques et stratégiques.
+                </p>
+                <p>
+                    Polyvalent et rigoureux, j’ai également évolué dans des environnements techniques exigeants en tant que technicien en climatisation, 
+                    renforçant ma capacité d’adaptation, mon sens du travail en équipe et ma précision opérationnelle.
+                </p>
+                <p>
+                    Aujourd’hui, je maîtrise <strong>WordPress</strong>, les bases des CMS, le design graphique et les fondamentaux du web. 
+                    Je recherche actuellement un <strong>stage d'ici avril</strong>, afin de mettre mes compétences techniques et mon esprit 
+                    entrepreneurial au service de projets concrets et innovants.
+                </p>
+            </div>
+            <div class="tags">
+                <span class="tag">Entrepreneuriat</span>
+                <span class="tag">SEO & Web</span>
+                <span class="tag">Analyse de données</span>
+                <span class="tag">WordPress</span>
+            </div>
+        </section>
+
+        <section class="card api-section">
+            <h2>Informations en temps réel (API)</h2>
+            <div class="api-grid">
+                <div class="api-item">
+                    <p><strong>Météo locale (Limoges) :</strong> 12°C</p>
+                </div>
+                <div class="api-item">
+                    <p><em>"Le succès n'est pas final, l'échec n'est pas fatal : c'est le courage de continuer qui compte."</em></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
